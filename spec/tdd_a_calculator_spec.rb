@@ -7,4 +7,15 @@ describe 'Calculator' do
     num_two = 5
     expect(calculator.multiply(num_one, num_two)).to eq 25
   end
+
+  it 'the calculator should be able to square numbers' do
+    calculator = Calculator.new
+    num = 5
+    expect(calculator.square(num)).to eq 25
+  end
+
+
+
+
+
 end

@@ -3,4 +3,8 @@ class Calculator
       num_one * num_two
     end
 
+    def square(num)
+      num * num
+    end
+
 end
